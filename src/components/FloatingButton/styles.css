@@ -1,0 +1,7 @@
+button {
+  position: fixed;
+  transform: rotateZ(90deg);
+
+  width: 70px;
+  height: 70px;
+}

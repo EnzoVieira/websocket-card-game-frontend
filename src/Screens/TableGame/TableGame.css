@@ -1,0 +1,51 @@
+.new-card-on-board {
+  background-color: #44c767;
+  transform: translateZ(0);
+  color: white;
+  width: 160px;
+  position: absolute;
+  right: calc(50% - 80px);
+  border: 1px solid #18ab29;
+  border-radius: 28px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.table-card {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  width: 150px;
+  height: 200px;
+  border-radius: 12px;
+  border: solid 1.5px black;
+
+  position: absolute;
+  top: 40%;
+  right: calc(50% - 75px);
+}
+
+.card-top {
+  display: flex;
+  flex: 1;
+  width: 50%;
+  position: relative;
+}
+
+.card-top span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.card-suit {
+  flex: 3;
+  font-size: 100px;
+}
+
+.card-bottom {
+  flex: 1;
+  width: 50%;
+  align-self: flex-end;
+}

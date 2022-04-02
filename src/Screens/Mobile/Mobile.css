@@ -1,0 +1,41 @@
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  width: 90px;
+  height: 120px;
+  border-radius: 12px;
+  transform: rotateZ(90deg);
+  border: solid 1.5px black;
+}
+
+.card-top {
+  display: flex;
+  flex: 1;
+  width: 50%;
+  position: relative;
+}
+
+.card-top span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.card-suit {
+  flex: 3;
+  font-size: 45px;
+}
+
+.card-bottom {
+  flex: 1;
+  width: 50%;
+  align-self: flex-end;
+}
